@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.header-container{
+    background-color: $header-color;
+}
+.logo-section{
+    height: $logo-height;
+    width: $logo-width;
+}
