@@ -2,6 +2,9 @@
 
 .header-container{
     background-color: $header-color;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .logo-section{
     height: $logo-height;
