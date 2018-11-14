@@ -1,2 +1,2 @@
-import SampleChildComponent from './components/SampleChildComponent';
+import SampleChildComponent from './containers/SampleChildComponentContainer';
 export default SampleChildComponent;
