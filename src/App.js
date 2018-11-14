@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
 import './styles/app.scss';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="app">
-        <Header></Header>
-        <Sidebar></Sidebar>
-      </div>
-    );
-  }
+export default function (ComposedComponent) {
+    class App extends Component {
+        render() {
+            return <ComposedComponent />
+        }
+    }
+    return App
 }
-
-export default App;
